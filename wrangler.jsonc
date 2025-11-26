@@ -1,0 +1,7 @@
+{
+  "name": "masa86-music",
+  "compatibility_date": "2025-11-26",
+  "assets": {
+    "directory": "./public"
+  }
+}
