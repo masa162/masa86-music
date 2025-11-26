@@ -1,0 +1,47 @@
+baseURL = 'https://msc.masa86.com/'
+languageCode = 'ja'
+title = 'masa86 Music'
+theme = 'PaperMod'
+
+[params]
+  description = "音楽レビューと音楽に関する雑記"
+  author = "masa86"
+  ShowReadingTime = true
+  ShowShareButtons = false
+  ShowPostNavLinks = true
+  ShowBreadCrumbs = true
+  ShowCodeCopyButtons = true
+  ShowRssButtonInSectionTermList = true
+  defaultTheme = "auto"
+
+[params.homeInfoParams]
+  Title = "masa86 Music 🎵"
+  Content = "音楽レビューと音楽に関する雑記を書いています"
+
+[[params.socialIcons]]
+  name = "github"
+  url = "https://github.com/masa162"
+
+[menu]
+  [[menu.main]]
+    identifier = "posts"
+    name = "記事"
+    url = "/posts/"
+    weight = 10
+  [[menu.main]]
+    identifier = "tags"
+    name = "タグ"
+    url = "/tags/"
+    weight = 20
+  [[menu.main]]
+    identifier = "search"
+    name = "検索"
+    url = "/search/"
+    weight = 30
+
+[outputs]
+  home = ["HTML", "RSS", "JSON"]
+
+[markup]
+  [markup.highlight]
+    style = "monokai"
